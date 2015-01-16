@@ -79,7 +79,6 @@
         CSSPath : 'lib/',
         plugins: [glS]
     });
-    console.log('rs',rS);
 
     // Move it to the bottom-left so it doesn't obscure zoom controls
     var rSDOM = document.querySelector('.rs-base');
@@ -87,7 +86,6 @@
     rSDOM.style.top = 'inherit';
 
     // Pre-render hook
-    var zoom_step = 0.03;
     function preUpdate (will_render) {
         // Profiling
         if (will_render && rS) {
