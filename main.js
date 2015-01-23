@@ -33,10 +33,6 @@
     );
 
     var layer = Tangram.leafletLayer({
-        source: {
-            type: 'GeoJSONTileSource',
-            url:  'http://vector.mapzen.com/osm/all/{z}/{x}/{y}.json'
-        },
         scene: 'styles.yaml',
         preUpdate: preUpdate,
         postUpdate: postUpdate,

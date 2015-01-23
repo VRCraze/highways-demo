@@ -1,6 +1,10 @@
 # highways-demo
 
-A demo showing some contextual highway styles using the [Tangram](http://github.com/tangrams/tangram) library.
+A demo showing contextual highway styles using the [Tangram](http://github.com/tangrams/tangram) library.
+
+Live demo: http://tangrams.github.io/highways-demo
+
+![highways demo](https://cloud.githubusercontent.com/assets/459970/5781837/ece89c72-9d83-11e4-93e2-757c464c1278.png)
 
 ### To run:
 
